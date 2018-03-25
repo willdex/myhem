@@ -6,13 +6,13 @@ function recargar(){
 }
 </script>
 
-<div id="ModalVideo1" data-backdrop="static" class="modal fade" role="dialog">
+<div id="ModalVideo4" data-backdrop="static" class="modal fade" role="dialog">
   <div class="modal-dialog modal-md">
     <!-- Modal content-->
     <div class="modal-content">
 
       <div class="modal-header" style="background: #3c8dbc; color: white">
-        <h4 class="modal-title"><b>Cómo Registrarse?</b></h4>
+        <h4 class="modal-title"><b>Participando de Convocatorias</b></h4>
       </div> 
 
 
@@ -20,7 +20,7 @@ function recargar(){
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
           <div class="embed-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YmrMafNyyrg" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WcMlh9l2irQ" frameborder="0" allowfullscreen></iframe>
           </div>
 
           <br>
@@ -32,7 +32,7 @@ function recargar(){
       <div class="modal-footer">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-          <button data-dismiss="modal" class="btn btn-danger" id="btnCerrarVideo" name="btnCerrarVideos" >Cerrar</button>
+          <button data-dismiss="modal" class="btn btn-danger" id="btnCerrarVideo" name="btnCerrarVideos">Cerrar</button>
 
        </div>
       </div>

@@ -64,7 +64,6 @@
 
           {!!Form::close()!!}
 
-          <button data-dismiss="modal" class="btn btn-danger" name="btnAdjudicarCancelarC" id="btnAdjudicarCancelarC">CANCELAR</button>
 
                       </div>
                    <br/>

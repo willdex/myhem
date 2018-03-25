@@ -15,6 +15,9 @@
     <?php echo $__env->make('log.modal', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <?php echo $__env->make('log.modalvideo1', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
     <?php echo $__env->make('log.modalvideo2', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <?php echo $__env->make('log.modalvideo3', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+    <?php echo $__env->make('log.modalvideo4', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+
 
      <?php echo Html::style('css/bootstrap.css'); ?>
 
@@ -88,9 +91,11 @@
   </button>
  
   <ul class="dropdown-menu" role="menu">
-    <li><a href="" data-toggle="modal" data-target="#ModalVideo1">Video 1</a></li>
-    <li><a href="" data-toggle="modal" data-target="#ModalVideo2">Video 2</a></li>
-    <li><a href="" data-toggle="modal" data-target="#">Video 3</a></li>
+    <li><a href="" data-toggle="modal" data-target="#ModalVideo1">Cómo Registrarse?</a></li>
+    <li><a href="" data-toggle="modal" data-target="#ModalVideo2">Cómo Ingresar?</a></li>
+    <li><a href="" data-toggle="modal" data-target="#ModalVideo3">Olvidaste tu Contraseña</a></li>
+    <li><a href="" data-toggle="modal" data-target="#ModalVideo4">Enviado Propuesta</a></li>
+
   </ul>
 </div>
 

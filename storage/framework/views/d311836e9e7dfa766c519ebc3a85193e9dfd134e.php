@@ -282,37 +282,29 @@ table[class=hide], img[class=hide], td[class=hide] {
 
                 <!-- ======= start hero article ======= -->
 
-
                 <table class="one-column" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-spacing:0" bgcolor="#FFFFFF">
-
                   <tr>
+                    <td align="center" style="padding:0px 40px 0px 40px"><p style="color:#5b5f65; font-size:25px; text-align:center; font-family: Verdana, Geneva, sans-serif"><p style="color:#0074B8; font-size:30px; text-align:center; font-family: Verdana, Geneva, sans-serif"><strong> SISTEMA DE COMPRAS INCOTEC </strong> </p><p style="color:#5b5f65; font-size:24px; text-align:center; font-family: Verdana, Geneva, sans-serif"><strong> Consulta desde el Sistema de Compras </strong> </p>
 
-                    <td align="center" style="padding:0px 40px 0px 40px">
-                      <p style="color:#0074B8; font-size:30px; text-align:center; font-family: Verdana, Geneva, sans-serif"><strong> SISTEMA DE COMPRAS INCOTEC </strong> </p>
-                      <p style="color:#5b5f65; font-size:24px; text-align:center; font-family: Verdana, Geneva, sans-serif"><strong> REQUISITOS DE REGISTRO </strong> </p>
-                      <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">Recibimos una solicitud de registro de proveedores en nuestro “Sistema de Compras Incotec”.
+                      <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">Se ha recibido un mensaje de consulta desde el portal de Sistemas de Compras.
                       </p>
 
-                      <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">Para ser parte de nuestros proveedores deberá cumplir con la siguiente documentación:
+                       <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">*Usuario: <?php echo $correo; ?></p>
+
+                       <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">*Asunto: <?php echo $asunto; ?></p>
+
+                       <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">*Mensaje: <?php echo $mensaje; ?></p>
+
+
+                      <br>
+                      <p style="color:#5b5f65; font-size:15px; text-align:left; font-family: Verdana, Geneva, sans-serif">Envía tu documentación escaneada al correo <a href="mailto:compras@incotec.cc">compras@incotec.cc</a>,
+                        en el transcurso de 72 hrs, recibirás la aprobación y se enviarán los accesos al correo electrónico que registraste.
                       </p>
-
-                      <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">1)  Anexo I - “Formulario Registro de Proveedor Nacional”.</p>
-                      <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">2)  Copia simple del Certificado de Actualización de la Matricula de Comercio Vigente.</p>
-                      <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">3)  Certificado Electrónico de la Inscripción al Padrón Nacional de Contribuyente (NIT)</p>
-                      <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">4)  Copia simple del Certificado de Activación de Dosificación de la Factura</p>
-                      <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">5)  Copia simple de la Licencia de Funcionamiento de Actividad Económica.<p>
-                        <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">6)  Copia simple del Certificado de Registro de Empleador (ROE).<p>
-                          <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">7)  Copia Simple del Documento de Identidad del (los) Representante (s) legal (es) de la empresas.<p>
-
-                      <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">Envía tu documentación escaneada al correo <a href="mailto:compras@incotec.cc">compras@incotec.cc</a>,
-
-                      </p>
-                      <p style="color:#5b5f65; font-size:16px; text-align:left; font-family: Verdana, Geneva, sans-serif">En breve recibirá al correo electrónico registrado la confirmación y los accesos para inicio de sesión en el  “Sistema de Compras Incotec”.</p>
 
 
 
                       <!-- START BUTTON -->
-<!--
+ <!--
                      <center>
                         <table cellpadding="0" cellspacing="0" border="0" width="100%">
                           <tr>
@@ -334,8 +326,9 @@ table[class=hide], img[class=hide], td[class=hide] {
                               </table></td>
                           </tr>
                         </table>
-                      </center>     -->
+                      </center>
 
+-->
 
 
                       <!-- END BUTTON --></td>

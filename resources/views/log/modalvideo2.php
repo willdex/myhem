@@ -12,7 +12,7 @@ function recargar(){
     <div class="modal-content">
 
       <div class="modal-header" style="background: #3c8dbc; color: white">
-        <h4 class="modal-title"><b>Video 2</b></h4>
+        <h4 class="modal-title"><b>Cómo Ingresar</b></h4>
       </div> 
 
 
@@ -20,7 +20,7 @@ function recargar(){
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
           <div class="embed-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/f6D1usiyv-8" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/K5i4wy7hBlU" frameborder="0" allowfullscreen></iframe>
           </div>
 
           <br>
@@ -32,7 +32,7 @@ function recargar(){
       <div class="modal-footer">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-          <button data-dismiss="modal" class="btn btn-danger" id="btnCerrarVideo" name="btnCerrarVideos" onclick="recargar()">Cerrar</button>
+          <button data-dismiss="modal" class="btn btn-danger" id="btnCerrarVideo" name="btnCerrarVideos">Cerrar</button>
 
        </div>
       </div>
